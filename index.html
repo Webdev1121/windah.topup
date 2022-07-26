@@ -84,9 +84,20 @@
                                       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 rounded-full" style="border:none; color: white;">
                                       <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> 2022 <a href="#" class="hover:underline">Windah Topup</a>. 
                                         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> Created By 1121Developer#3978 - Using <a href="https://tailwindcss.com/" class="text-blue-300">TailwindCSS</a>
+<button>Shhh.. Ini Tombol Rahasia, Tekan Saja</button>
                                       </span>
                                   </footer>
             </body>
+<script>
+const audio = new Audio("./bocilkematian.mp3");
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach(button => {
+  button.addEventListener("click", () => {
+    audio.play();
+  });
+});
+</script>
             <style>
                 hr {
                   margin: 70px;
